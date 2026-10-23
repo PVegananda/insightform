@@ -29,6 +29,22 @@ const surveys = [
     status: 'Draft',
     updated: 'Edited 3 days ago',
     accent: 'amber'
+  },
+  {
+    title: 'Yang Menjual',
+    description: 'Understand what customers value most when choosing where to buy.',
+    responses: 124,
+    status: 'Published',
+    updated: 'Updated 5 hours ago',
+    accent: 'blue'
+  },
+  {
+    title: 'Rapo',
+    description: 'Collect clear feedback from the Rapo community and turn it into next steps.',
+    responses: 42,
+    status: 'Published',
+    updated: 'Updated Monday',
+    accent: 'violet'
   }
 ]
 </script>
@@ -64,12 +80,12 @@ const surveys = [
       <div class="summary-grid" aria-label="Workspace summary">
         <article class="summary-card">
           <span class="summary-label">Total responses</span>
-          <strong>334</strong>
+          <strong>500</strong>
           <span class="summary-change">+18.4% this month</span>
         </article>
         <article class="summary-card">
           <span class="summary-label">Published surveys</span>
-          <strong>2</strong>
+          <strong>4</strong>
           <span class="summary-note">1 draft in progress</span>
         </article>
         <article class="summary-card accent-card">
